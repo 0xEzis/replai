@@ -1,6 +1,6 @@
 import React from "react";
 import heroAsset from "/hero_asset.png";
-import playIcon from "/play_logo.png";
+import playIcon from "/play_logo.svg";
 import { LiaToolsSolid } from "react-icons/lia";
 
 const HeroBanner = ({ handleClick, AppRef, TutoRef }) => {
