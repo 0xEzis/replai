@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/logo.png";
+import logo from "/logo.svg";
 import { RiTwitterXLine } from "react-icons/ri";
 
 const NavBar = () => {

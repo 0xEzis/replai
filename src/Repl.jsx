@@ -118,7 +118,7 @@ const Repl = ({ AppRef }) => {
           {errorMessage && (
             <p className="text-center text-malt-color">{errorMessage}</p>
           )}
-          <div className="flex justify-center gap-16">
+          <div className="flex text-center gap-10 justify-center lg:gap-16">
           <button
             type="submit"
             className="flex bg-black text-white py-2 pt-[9px] px-4 rounded-2xl"
