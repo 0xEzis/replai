@@ -92,7 +92,7 @@ const Repl = ({ AppRef }) => {
           className="flex flex-col gap-8 py-8 px-8 mx-3 my-12 border border-black w-full rounded-2xl bg-white z-20 lg:text-xl lg:mt-40"
         >
           <label htmlFor="apiKey" className="flex flex-col gap-2">
-            Clé API :
+            Clé API OpenAI :
             <input
               name="apiKey"
               id="apiKey"
@@ -142,7 +142,7 @@ const Repl = ({ AppRef }) => {
             <div className="flex flex-col h-full justify-around items-center">
               <img src={loader} alt="" />
               <p className="text-center">
-                Réponse en cours de génération, veuilez patientiez !
+                Réponse en cours de génération,<br /> veuillez patientier !
               </p>
               <button
                 className="flex mx-auto bg-black text-white py-2 pt-[9px] px-4 rounded-2xl"
@@ -156,7 +156,7 @@ const Repl = ({ AppRef }) => {
               <div className="flex flex-col gap-4">
                 <p>Réponse générée :</p>
                 <textarea
-                  className="rounded-2xl border border-black py-2 px-2 h-full whitespace-pre-line lg:px-4 lg:py-4"
+                  className="rounded-2xl border border-black py-2 px-2 h-full whitespace-pre-line text-black lg:px-4 lg:py-4"
                   rows={12}
                   col={10}
                   disabled
